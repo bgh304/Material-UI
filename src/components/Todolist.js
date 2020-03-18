@@ -59,7 +59,7 @@ export default function Todolist() {
           <AddCircleIcon color="primary" fontSize="large"/>
         </IconButton>
         </Tooltip>
-        <ReactTable columns={columns} date={todos} defaultPageSize={10} filterable={true}/>
+        <ReactTable columns={columns} data={todos} defaultPageSize={10} filterable={true}/>
       </div>
     );
 }//delete todos.mappiin
